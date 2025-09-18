@@ -3,3 +3,8 @@
 ## Image Component:
 ### Props:
 - [fill](): Property này sẽ nói với NextJS rằng ảnh sẽ chiếm trọn không gian của thẻ cha
+
+## Error Page:
+- Trong Error Component sẽ có 1 prop là error. Chứa thêm thông tin về error được throw
+- Lý do Error Page cần được đánh dấu là Client Side là vì chúng ta phải đảm bảo rằng mình có thể bắt được những lỗi xảy ra ở phía browser.
+- 
