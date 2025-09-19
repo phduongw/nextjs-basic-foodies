@@ -7,4 +7,7 @@
 ## Error Page:
 - Trong Error Component sẽ có 1 prop là error. Chứa thêm thông tin về error được throw
 - Lý do Error Page cần được đánh dấu là Client Side là vì chúng ta phải đảm bảo rằng mình có thể bắt được những lỗi xảy ra ở phía browser.
+
+## use server
+- Nếu component/page được đánh dấu là 'use client' thì ta không thể hoàn toàn sử dụng 'use server' bên trong component/page
 - 
